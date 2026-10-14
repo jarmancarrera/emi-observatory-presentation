@@ -12,15 +12,15 @@ The annual edition frames the research. The project catalogues 164 source and me
 
 ## Slide 3 · Let researchers see the question
 
-A researcher starts with an economy, a measure, and a time window. Visualization makes the shape of the comparison easier to inspect before writing an explanation. Units, gaps, and filters belong beside the trend. The drawing on screen is schematic, not an actual data result. The chart-ready snapshot contains six annual World Bank indicators.
+A researcher starts with an economy, a company, a deal, or an investment project. The visual tools make comparisons easier to inspect before writing an explanation. Users will filter by geography, sector, and period, move from an overview to individual records, and export the selected view. Units, source dates, and coverage stay beside the data. The drawing on screen is schematic.
 
-## Slide 4 · How the evidence takes shape
+## Slide 4 · One observatory. A full evidence ecosystem.
 
-Official World Bank responses enter a Python preparation step, where the data are normalized and checked. Each dated snapshot keeps its source, units, metadata, and identity together. Think of it as a dated photograph of the evidence. Plotly supports interactive charts, while FastAPI provides read-only data access for a separately managed setting. The public presentation layer remains static.
+The Observatory is designed around a full source ecosystem. Capital IQ and Fortune support company analysis, with SEC EDGAR and GLEIF adding filings and identity. UNCTAD and IMF DIP supply investment evidence; fDi Markets and SDC/LSEG cover greenfield projects and M&A. World Bank, IMF and OECD provide economic context. Comtrade, WTO and national sources add trade and country detail. WIPO, UNESCO, WGI, Transparency International, SIPRI and IRENA add innovation, governance, geopolitical and energy context. GDELT helps surface news events.
 
 ## Slide 5 · Annual baseline. Updates as sources change.
 
-The current World Bank source-check design runs weekly, on Monday at 06:00 UTC. That check looks for revisions; it does not change the annual observation frequency. Changed snapshots remain addressable for pinned views. A source's own publication rhythm should set its refresh cadence, with event-driven updates where providers allow them. Python, FastAPI, Plotly, and GitHub Actions form the working stack. A production design can add Dagster and PostgreSQL to coordinate source-specific runs and history.
+Each source has its own clock. A new filing, a revised investment table, and an annual index arrive at different speeds. The automation layer will follow those rhythms through APIs, scheduled collection, and authorized data deliveries. Python prepares the records; Dagster will coordinate source-specific jobs, with PostgreSQL holding comparable data and history. FastAPI serves the research interface, Plotly supports interactive charts, and GitHub Actions handles checks and publishing. Think of it as an editorial desk: collect, check, version, then publish. The annual edition remains the reference.
 
 ## Slide 6 · Ask the chatbot. Follow the evidence.
 
