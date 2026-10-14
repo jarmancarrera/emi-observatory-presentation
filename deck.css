@@ -32,3 +32,5 @@
 @media(min-width:761px){.slide-source{bottom:4cqw;color:#686868;font-size:.58cqw}.cover-source{bottom:4cqw;font-size:.5cqw}.cover-main{padding-bottom:4.6cqw}}
 
 .brand-lockup{gap:1.2cqw;align-items:center}.center-wordmark{font:1.06cqw/1.15 var(--display);color:var(--ink);border-left:1px solid var(--rule);padding-left:1.1cqw;letter-spacing:-.02em}@media(max-width:760px){.center-wordmark{font-size:2.9vw;padding-left:2vw}.brand-lockup{gap:2vw}}
+
+.center-emc2-logo{width:15.2cqw;height:15.2cqw;object-fit:contain;border-radius:50%;display:block}
