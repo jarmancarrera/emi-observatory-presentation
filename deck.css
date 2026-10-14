@@ -34,3 +34,6 @@
 .brand-lockup{gap:1.2cqw;align-items:center}.center-wordmark{font:1.06cqw/1.15 var(--display);color:var(--ink);border-left:1px solid var(--rule);padding-left:1.1cqw;letter-spacing:-.02em}@media(max-width:760px){.center-wordmark{font-size:2.9vw;padding-left:2vw}.brand-lockup{gap:2vw}}
 
 .center-emc2-logo{width:15.2cqw;height:15.2cqw;object-fit:contain;border-radius:50%;display:block}
+
+/* Cornell identity stays visible beside the EMC2 center mark. */
+.cornell-lockup{width:19.5cqw;max-width:19.5cqw;max-height:3.3cqw}.slide-brand{display:flex;align-items:center;gap:1.4cqw}.cornell-slide-logo{width:11.8cqw;height:auto;max-height:2.1cqw;object-fit:contain}@media(max-width:760px){.cornell-lockup{width:42vw;max-width:42vw;max-height:8vw}.cornell-slide-logo{width:27vw;max-height:6vw}.slide-brand{gap:3vw}}
